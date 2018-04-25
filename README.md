@@ -15,3 +15,4 @@ In `managePets.js` you need to write three functions `managePets`, `dispatch`, a
 1. The `managePets` reducer function needs to have a sensible default state
 2. `dispatch` should pass an action to the reducer and use that return value to update the state, a globally accessible variable
 3. Since our users want to see their pets on a webpage we want to have a `render` method that inserts a `<ul>` to the DOM with each pet's name wrapped in an `<li>`.  The `<ul>` should be a child of an element with the id of `container`. There's no need to load jQuery into our app for such a small task. We can make use of built-in JavaScript methods like `document.getElementById`.
+<p data-visibility='hidden'>PHRG Pet Dispatcher Lab</p>
